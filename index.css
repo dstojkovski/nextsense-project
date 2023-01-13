@@ -1,0 +1,113 @@
+/* *{
+    background-color: #20202c;
+    color: #20202c;
+} */
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+}
+
+.bla, .blabla {
+    color: white;
+}
+
+.zbor {
+    color: #6971fa;
+}
+
+.navbar {
+    position: sticky;
+    background-color: #20202c;
+}
+
+.nav-link {
+    color: white;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.navbar-toggler {
+    color: white;
+}
+
+.grid-item {
+    background-color: #727692;
+    margin: 5px;
+    height: 30vh;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.big-square {
+    background-color: #727692;
+    height: 30vw;
+    
+}
+
+.small-square-1 {
+    background-color: #5c5f75;
+    height: 15vw;
+    
+}
+.small-square-2 {
+    background-color: #4c4e61;
+    height: 15vw;
+    
+}
+
+.item-1 {
+    direction: inherit;
+}
+
+.rectangle {
+    height: 14vw;
+    background-color: #353745;
+    
+}
+
+.btn {
+    color: white;
+    background-color: #6971fa;
+    width: 30vw;
+    height: 4vw;
+}
+
+.btn:hover {
+    background-color: #727692;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.grid-container {  display: grid;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "big-square big-square small-square-1 small-square-2"
+      "big-square big-square rectangle rectangle";
+  }
+  
+  .big-square { grid-area: big-square; }
+  
+  .rectangle { grid-area: rectangle; }
+  
+  .small-square-1 { grid-area: small-square-1; }
+  
+  .small-square-2 { grid-area: small-square-2; }
+
+  
