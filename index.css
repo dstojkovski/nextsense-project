@@ -28,6 +28,11 @@
     color: white;
 }
 
+.left {
+    padding: 50px 70px;
+    position: relative;
+}
+
 .navbar-toggler {
     color: white;
 }
@@ -74,9 +79,14 @@
 .btn {
     color: white;
     background-color: #6971fa;
-    width: 30vw;
+    width: 20vw;
     height: 4vw;
 }
+
+.table {
+    border: gray;
+}
+
 
 .btn:hover {
     background-color: #727692;
@@ -88,6 +98,24 @@
     justify-content: space-between;
     flex-direction: row;
 }
+
+@media (max-width: 767px) {
+    .left {
+        padding: 25px;
+    }
+    .left button{
+        width: 150px;
+        padding: 12px 0;
+        font-size: 0.6rem;
+    }
+    .container button{
+        width: 150px;
+        padding: 12px 0;
+        font-size: 0.6rem;
+    }
+}
+
+
 
 .grid-container {  display: grid;
     margin-left: 50px;

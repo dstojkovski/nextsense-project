@@ -10,7 +10,7 @@
   <body>
     
     <section style="background-color: #3e3e52;">
-        <div id="carouselExampleCaptions" class="carousel slide">
+        <div id="carouselExampleCaptions" class="carousel slide col-sm-12">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -90,20 +90,108 @@
       <h1 style="color: white;" class="text-center pt-5">About</h1>
       <p class="text-center blabla mb-5">Express yourself! Write your own lorem ipsum text...</p>
 
-      <div class="container">
+      <div class="container" style="border-left: 4px solid #6971fa;">
         <div>
           <h2 style="color: white;"><span style="color: #6971fa;">NEW</span> HEADING</h2>
           <h4 style="color: white;">CREATE/DESIGN CONTENT</h4>
         </div>
       </div>
       <div class="container">
-        <span style="color: gray;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, ea doloribus. Voluptas, laborum natus! Magnam voluptate, dicta facilis in fugiat molestiae eos? Dolorum ipsum labore enim temporibus, facere repellendus doloribus deleniti repudiandae non ipsam in provident, beatae ullam porro pariatur aspernatur qui voluptates, alias iusto est? Unde pariatur in possimus.</span>
+        <span style="color: gray; width: 80vh;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, ea doloribus. Voluptas, laborum natus! Magnam voluptate, dicta facilis in fugiat molestiae eos? Dolorum ipsum labore enim temporibus, facere repellendus doloribus deleniti repudiandae non ipsam in provident, beatae ullam porro pariatur aspernatur qui voluptates, alias iusto est? Unde pariatur in possimus.</span>
         <button class="btn">Open Modal</button>
       </div>
 
-      
-      
-      
+      <div class="container">
+        <ul style="list-style-type:circle; color: gray; margin-top: 30px;">
+          <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, aliquam.</li>
+          <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, incidunt?</li>
+        </ul>
+      </div>
+
+      <div class="container">
+        <table class="table mt-5 mb-5" style="color: white;">
+          <thead>
+            <tr style="color: white; border-bottom: 4px solid  #6971fa;">
+              <th scope="col"></th>
+              <th scope="col">Item</th>
+              <th scope="col">Description</th>
+              <th scope="col">Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="color: gray;">
+              <th scope="row"></th>
+              <td>Item name</td>
+              <td>Here goes item description in my fancy table</td>
+              <td>$100,00</td>
+            </tr>
+            <tr style="color: gray;">
+              <th scope="row"></th>
+              <td>Item name</td>
+              <td>Here goes item description in my fancy table</td>
+              <td>$10,00</td>
+            </tr>
+            <tr style="color: gray;">
+              <th scope="row"></th>
+              <td>Item name</td>
+              <td>Here goes item description in my fancy table</td>
+              <td>$5873,52</td>
+            </tr>
+            <tr style="color: gray;">
+              <th scope="row"></th>
+              <td>Item name</td>
+              <td>Here goes item escription in my fancy table</td>
+              <td>$417,50</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </section>
+
+    <section style="background-color:#3e3e52">
+      <h1 style="color: white; padding-top: 30px;" class="text-center">Contact</h1>
+
+      <div class="form-area">
+        <div class="container">
+          <div class="row single-form g-0">
+            <div class="col-sm-12 col-lg-6">
+              <div class="left">
+                <form>
+                  <div class="mb-3">
+                    <label style="color: gray;" for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input style="background-color:#20202c; border-radius: 0%; border: #20202c;" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email address">
+                  </div>
+                  <div class="mb-3">
+                    <label style="color: gray;" for="exampleInputPassword1" class="form-label">Password</label>
+                    <input style="background-color:#20202c; border-radius: 0%; border: #20202c;" type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                  </div>
+                  <div class="mb-3">
+                    <label style="color: gray;" for="exampleInputEmail1" class="form-label">Phone number</label>
+                    <input style="background-color:#20202c; border-radius: 0%; border: #20202c;" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Phone number">
+                  </div>
+                  <div class="mb-3">
+                    <label style="color: gray;" for="exampleFormControlTextarea1" class="form-label">Comment</label>
+                    <textarea style="background-color:#20202c; border-radius: 0%; border: #20202c; color: gray;" class="form-control" id="exampleFormControlTextarea1" rows="3">Message...</textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+              </div>
+            </div>
+            <div class="col-sm-12 col-lg-6">
+              <div class="right mt-5">
+                <h4 style="color: white; font-weight: bold;" class="pb-2">Get in touch</h4>
+                <span style="color: gray;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui aliquam earum cupiditate neque culpa nisi quam rem, quisquam cum unde debitis quis soluta vel sit reiciendis, doloremque nobis architecto maiores ex. Iure sed porro quibusdam molestias id incidunt fugit quidem amet, aut itaque quaerat, nesciunt qui repudiandae repellendus nostrum aspernatur!</span>
+                <div class="mt-3" style="color: #6971fa;"><link rel="stylesheet" href="google.com">google.com</div>
+                <div class="mt-3" style="color: #6971fa; font-weight: bold;">(+389)70-231/618</div>
+                <div style="color: gray;" class="mt-3">Blvd. Partizanska 62</div>
+                <div style="color: gray;" class="mt-1 pb-5">1000,Skopje Macedonia</div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
     </section>
 
 
