@@ -3,8 +3,24 @@
     color: #20202c;
 } */
 .carousel-item {
-    height: 100vh;
+    height: 50vw;
     min-height: 300px;
+}
+
+.carousel-caption {
+    margin-top: 12%;
+    margin-right: 30%;
+    text-align: start;
+    font-size: 5vw;
+    font-weight: bold;
+}
+
+.carouselbackground {
+    position: inherit;
+    opacity: 0.1;
+    color: gray;
+    font-size: 25vw;
+    font-weight: bolder;
 }
 
 .bla, .blabla {
@@ -40,7 +56,7 @@
 .grid-item {
     background-color: #727692;
     margin: 5px;
-    height: 30vh;
+    height: 30vw;
 }
 
 .sticky {
@@ -105,14 +121,34 @@
     }
     .left button{
         width: 150px;
-        padding: 12px 0;
+        padding-bottom: 20px;
         font-size: 0.6rem;
     }
     .container button{
         width: 150px;
-        padding: 12px 0;
+        padding-bottom: 25px;
         font-size: 0.6rem;
     }
+    .container-caption {
+        font-size: 20px;
+    }
+}
+
+.c-img {
+    height: 50vw;
+    max-width: fit-content;
+    margin-left: 50%;
+    margin-bottom: 50%;
+    align-items: center;
+    margin-top: -37%;
+}
+
+.c-img-pro {
+    margin-left: 40%;
+    max-width: max-content;
+    margin-top: -37%;
+    height: 40vw;
+    margin-top: -30%;
 }
 
 
