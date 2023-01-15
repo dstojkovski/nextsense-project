@@ -151,6 +151,10 @@
     margin-top: -30%;
 }
 
+.navbar-toggler-icon {
+    color: white;
+}
+
 
 
 .grid-container {  display: grid;
