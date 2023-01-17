@@ -8,3 +8,7 @@ window.onscroll = function() {myFunction()};
     navbar.classList.remove("sticky");
   }
 }
+
+function success() {
+  alert("Successfully submitted!");
+}

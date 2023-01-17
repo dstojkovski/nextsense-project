@@ -151,6 +151,11 @@
     margin-top: -30%;
 }
 
+.c-logo {
+    height: 5vw;
+    /* margin-top: 5%; */
+}
+
 .navbar-toggler-icon {
     color: white;
 }
